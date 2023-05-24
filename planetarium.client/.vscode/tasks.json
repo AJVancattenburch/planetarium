@@ -1,0 +1,23 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Serve Client",
+      "type": "shell",
+      "command": "bcw serve",
+      "isBackground": true,
+      "problemMatcher": "$func-watch",
+      "runOptions": {
+        "instanceLimit": 1
+      },
+      "icon": {
+        "color": "terminal.ansiCyan",
+        "id": "beaker"
+      },
+      "group": "none"
+    }
+  ]
+}
+

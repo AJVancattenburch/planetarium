@@ -1,0 +1,13 @@
+
+  {
+    "name": "planetarium",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd planetarium.client && npm i",
+      "setup:server": "cd planetarium && npm i",
+      "start": "node planetarium/index.js"
+    }
+  }
+  
